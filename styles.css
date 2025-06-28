@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(90deg, rgba(140, 212, 175, 1) 0%, rgba(140, 222, 204, 1) 100%);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 360px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.bannerImg {
+  width: 100%;
+  max-height: 180px;
+  object-fit: contain;
+  border-radius: 20px;
+  background-color: #fff;
+  display: block;
+  padding: 10px;
+}
+
+.textBox {
+  text-align: center;
+  width: 90%;
+}
+
+.textBox h2 {
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.textBox p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+}
+
+#amountBox {
+  width: 90%;
+  background-color: #e2ecf1;
+  border-radius: 12px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.leftBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.leftBox img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.textAmountBox p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.textAmountBox p:last-child {
+  font-weight: bold;
+}
+
+.rightBox a {
+  text-decoration: none;
+  color: #004aad;
+  font-size: 0.9rem;
+}
+
+.rightBox a:hover {
+  text-decoration: underline;
+  color: red;
+}
+
+#paymentButton {
+  width: 85%;
+  height: 45px;
+  background-color: #020256;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.3s ease;
+}
+
+#paymentButton:hover {
+  background-color: #040478;
+}
+
+.cancelBox a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.cancelBox a:hover {
+  color: red;
+}
+
+@media (max-width: 400px) {
+  .card {
+    width: 90%;
+  }
+}

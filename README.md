@@ -61,6 +61,14 @@ No npm, no server, no stress — bas ek pyaari si card UI! 💖
 Made with ❤️ by a frontend enthusiast who loves clean UIs and card layouts.
 "Code bhi stylish, aur naam bhi thoda desi swad wala!" 🌶️🧃
 
-📌 License
-This project is open-sourced under the MIT License.
-Use it, remix it, and share it with your frontend friends!
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Attribution
+
+Created by **Naitik Gupta**.
+
+If you use or modify this code in a public repository or portfolio, please give credit and link back to the original repository:
+
+🔗 [Original GitHub Repo](https://github.com/naitik2043/ConnectKart)
